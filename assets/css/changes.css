@@ -1,0 +1,22 @@
+.profile-pic {
+    width: 25vmin;
+    height: 25vmin;
+    border-radius: 40vmin;
+    margin: 5vmin;
+}
+
+.pic {
+    width: 50vmin;
+    height: 50vmin;
+    border-radius: 5vmin;
+    margin: 5vmin;
+}
+
+
+.videos {
+    width: 50vmin;
+    height: 30vmin;
+    border-radius: .5vmin;
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+}
