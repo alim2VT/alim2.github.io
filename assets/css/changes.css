@@ -1,22 +1,60 @@
 .profile-pic {
-    width: 25vmin;
-    height: 25vmin;
-    border-radius: 40vmin;
-    margin: 5vmin;
+  width: 25vmin;
+  height: 25vmin;
+  border-radius: 40vmin;
+  margin: 5vmin;
 }
 
 .pic {
-    width: 50vmin;
-    height: 50vmin;
-    border-radius: 5vmin;
-    margin: 5vmin;
+  width: 50vmin;
+  height: 50vmin;
+  border-radius: 5vmin;
+  margin: 5vmin;
+}
+
+.videos {
+  width: 50vmin;
+  height: 30vmin;
+  border-radius: 0.5vmin;
+  margin-left: 5vmin;
+  margin-right: 5vmin;
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.2em;
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+.animation {
+  font-size: 2vmin;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%;
+  }
 }
 
 
-.videos {
-    width: 50vmin;
-    height: 30vmin;
-    border-radius: .5vmin;
-    margin-left: 5vmin;
-    margin-right: 5vmin;
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
 }
